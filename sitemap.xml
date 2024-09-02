@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://tobiassoltermann.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://tobiassoltermann.github.io/</loc>
+</url>
+<url>
+<loc>https://tobiassoltermann.github.io/about-me.html</loc>
+<lastmod>2024-09-02T07:40:49+02:00</lastmod>
+</url>
+<url>
+<loc>https://tobiassoltermann.github.io/hello-im-tobias-soltermann.html</loc>
+<lastmod>2024-09-02T13:09:49+02:00</lastmod>
+</url>
+<url>
+<loc>https://tobiassoltermann.github.io/stop-eavesdropping-from-contactless-credit-cards-rfidnfc.html</loc>
+<lastmod>2024-09-02T13:35:33+02:00</lastmod>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/schema.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/draft.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/gallery/IMG_20201207_124239.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/gallery/IMG_20201207_154059.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/gallery/IMG_20201207_154047.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/switch.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://tobiassoltermann.github.io/media/posts/3/40306413211_6b77d4d26b_c.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>
