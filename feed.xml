@@ -3,12 +3,170 @@
     <title>Tobias Soltermann</title>
     <link href="https://tobiassoltermann.github.io/feed.xml" rel="self" />
     <link href="https://tobiassoltermann.github.io" />
-    <updated>2024-09-02T13:35:33+02:00</updated>
+    <updated>2024-09-02T20:05:19+02:00</updated>
     <author>
         <name>Tobias Soltermann</name>
     </author>
     <id>https://tobiassoltermann.github.io</id>
 
+    <entry>
+        <title>Sandsack* App</title>
+        <author>
+            <name>Tobias Soltermann</name>
+        </author>
+        <link href="https://tobiassoltermann.github.io/sandsack-app.html"/>
+        <id>https://tobiassoltermann.github.io/sandsack-app.html</id>
+
+        <updated>2024-09-02T20:05:19+02:00</updated>
+            <summary>
+                <![CDATA[
+                    * bags filled with sand (crumble of glass, to be precise) I have designed and built an app supporting the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    * bags filled with sand (crumble of glass, to be precise)
+  </p>
+
+    <h1 id="overview">
+      Overview
+    </h1>
+
+  <p>
+    I have designed and built an app supporting the <a href="https://www.ag.ch/de/dgs/militaerbevoelkerungsschutz/bevoelkerungsschutz/katastropheneinsatzelement/katastropheneinsatzelement.jsp" target="_blank">Emergency Response Team of Canton of Aargau</a>&nbsp;in controlling flood situations. Built using <a href="https://expo.io/" target="_blank">Expo</a> (<a href="https://github.com/facebook/react-native" target="_blank">ReactNative</a>).<br>
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/01.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/01-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/04.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/04-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/05.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/05-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+    <h1 id="details">
+      Details
+    </h1>
+
+  <p>
+    Heavy rains can create floods, filling cellars or rendering streets unusable to traffic. Water flows can be redirected by the placement of bags - requiring quick action.<br><br>When on site, the emergency response team needed a tool to increase their effectiveness by providing the ability to:<br><br>calculate the amount of bags required, and<br><br>order some bags to the emergency site.<br><br>Together with the Cantonal Disaster Response Unit, I designed and built a smartphone app available on iOS and Android.<br>
+  </p>
+
+    <h2 id="use-case-1-calculation-of-required-sandbags">
+      Use case #1: Calculation of required sandbags
+    </h2>
+
+  <p>
+    Sand bags are not placed randomly to create walls, but according to a pre-defined algorithm. One use case is to calculate the number of bags required  to create these walls and how they should be layered.<br>
+  </p>
+
+  <p>
+    Two inputs are required for that: <b>length</b> and <b>height</b>. The app then calculates various information:
+  </p>
+
+  <ul>
+    <li># of layers</li><li># bags per layer</li><li># bags overall</li><li># palettes (bags can be delivered in palettes)</li>
+  </ul>
+
+  <p>
+    The app also displays the costs raised by the production of these sandbags, as they can be ordered by any surrounding firefighting organization.<br>
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/03.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/03-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/image-asset.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/image-asset-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/05-1.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/05-1-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    The sandbags are held in one or two central storage locations, and if required, produced on demand by the KKE. In an emergency, they need to be delivered to the emergency site, which can be initiated by the supervisor on site.
+  </p>
+
+  <p>
+    The supervisor can collect the bags in one of the central locations, or have them delivered to the emergency site. In the latter case, they can use the Google Maps integration to calculate the distance, and the delivery costs are also displayed.<br><br>Further, an order can be placed which is then processed by the central team. To avoid recurring costs, no server-side components were used.
+  </p>
+
+  <p>
+    Using the built-in webhook plugin, the order is sent into a previously configured <a href="https://slack.com/" target="_blank">Slack</a> channel.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/slack.png" height="490" width="742" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://tobiassoltermann.github.io/media/posts/5/responsive/slack-xs.png 384w ,https://tobiassoltermann.github.io/media/posts/5/responsive/slack-sm.png 600w ,https://tobiassoltermann.github.io/media/posts/5/responsive/slack-md.png 768w ,https://tobiassoltermann.github.io/media/posts/5/responsive/slack-lg.png 1200w ,https://tobiassoltermann.github.io/media/posts/5/responsive/slack-xl.png 1600w">
+      
+    </figure>
+
+    <h2 id="use-case-3-links-to-documents-andamp-administration">
+      Use case #3: Links to documents &amp; Administration
+    </h2>
+
+  <p>
+    The central administration can also publish links, effectively making urgently needed guideline, regulation and other documents available to the supervisors on the emergency site.<br>
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/06.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/06-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://tobiassoltermann.github.io/media/posts/5/gallery/07.png" data-size="640x1136">
+        <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/5/gallery/07-thumbnail.png" height="1136" width="640" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    This can be controlled directly from within the app, if the user has been given permission. Also, they can configure enabled hubs from which sandbag production takes place.
+  </p>
+
+    <h1 id="technical-stufflessbrgreater">
+      Technical stuff<br>
+    </h1>
+
+  <p>
+    Built using the framework <a href="https://expo.io/" target="_blank">Expo</a>, which is basically a way to easily deploy <a href="https://github.com/facebook/react-native" target="_blank">ReactNative</a> apps. As React is based on web technologies, there was also a lot of JavaScript and CSS involved. The framework <a href="https://reactnativeelements.com/" target="_blank">React Native Elements</a> helped a lot to get a consistent look and feel across devices.  <a href="https://code.visualstudio.com/">Visual Studio Code</a> was used as a coding IDE.<br><br>Only two backend services were used:
+  </p>
+
+  <ul>
+    <li>a Slack channel to deliver messages when something was ordered,</li><li>a <a href="https://www.dropbox.com/" target="_blank">Dropbox</a> integration to store configuration in a <a href="https://www.json.org/" target="_blank">JSON file</a>.</li>
+  </ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Stop eavesdropping from contactless credit cards (RFID/NFC)</title>
         <author>
@@ -16,15 +174,18 @@
         </author>
         <link href="https://tobiassoltermann.github.io/stop-eavesdropping-from-contactless-credit-cards-rfidnfc.html"/>
         <id>https://tobiassoltermann.github.io/stop-eavesdropping-from-contactless-credit-cards-rfidnfc.html</id>
+        <media:content url="https://tobiassoltermann.github.io/media/posts/3/draft-2.png" medium="image" />
 
-        <updated>2024-09-02T13:26:56+02:00</updated>
+        <updated>2021-05-02T13:26:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://tobiassoltermann.github.io/media/posts/3/draft-2.png" alt="" />
                     The police of the canton of Aargau are giving away RFID blockers for free. These cards can be put in&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://tobiassoltermann.github.io/media/posts/3/draft-2.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     The police of the canton of Aargau are giving away RFID blockers for free. These cards can be put in your wallet to prevent 3rd-parties exploiting contactless payment. They contacted me to build a protoype device demonstrating the effectiveness of these blocking cards on public exhibitions.
@@ -137,6 +298,58 @@ src="https://www.youtube.com/embed/lJyoT25dVTs?wmode=opaque&enablejsapi=1">
 
   <p>
     As can be seen in the video, the finished build works great and the customer was happy. It certainly was a ton of fun and I have learned something about NFC / RFID as I had never worked with it before.<br>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>jass.games</title>
+        <author>
+            <name>Tobias Soltermann</name>
+        </author>
+        <link href="https://tobiassoltermann.github.io/jassgames.html"/>
+        <id>https://tobiassoltermann.github.io/jassgames.html</id>
+
+        <updated>2020-04-17T19:55:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Overview I’ve built a web-based app to play traditional Swiss game Jass, free of charge for anyone to use on&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h1 id="overview">
+      Overview
+    </h1>
+
+  <p>
+    I’ve built a web-based app to play traditional Swiss game Jass, free of charge for anyone to use on their computers, laptops or tablets. Click the picture below for a video in action. The game was playable on jass.games, but I have decided to turn it off again because of low usage.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/overview.png" height="949" width="1522" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/overview-xs.png 384w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/overview-sm.png 600w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/overview-md.png 768w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/overview-lg.png 1200w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/overview-xl.png 1600w">
+      
+    </figure>
+
+    <h1 id="details">
+      Details
+    </h1>
+
+  <p>
+    Every now and then, we like to play a good game of Jass. It is a traditional cards game in Switzerland. There’s probably an uncountable number of variants, but two of the most commonly played flavours are called <a href="https://www.swisslos.ch/en/jass/informations/jass-rules/coiffeur-jass.html" target="_blank">Coiffeur</a> and <a href="https://www.swisslos.ch/en/jass/informations/jass-rules/schieber-jass.html" target="_blank">Schieber</a>.<br>
+  </p>
+
+  <p>
+    During the rather extraordinary situation raised by COVID-19, playing such a game physically was obviously out of question. While on a video call with best friends we usually play this game with, we researched for a potential substitution of physical play. There were a few apps available for smartphones, but either they were not working reliably enough to play a serious game - or they were not designed for players knowing each other beforehands.<br>
+  </p>
+
+  <p>
+    I decided to give it a go and build something by myself. Requirements were that it is a web-based solution working on modern browsers, and that it is playable on tablets and computers/laptops. <br><br>
+  </p>
+
+  <p>
+    Developed with <a href="https://nodejs.org/" target="_blank">Node.JS</a>, <a href="https://reactjs.org/" target="_blank">ReactJS</a>. Most communication happens through websockets using <a href="https://socket.io/" target="_blank">socket.io</a> library. <br><br>All graphical assets are self-made, mostly with <a href="https://inkscape.org/" target="_blank">Inkscape</a> and some <a href="https://www.gimp.org/" target="_blank">GIMP</a>. As a coding IDE, I used <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>.<br><br>Frontend and backend are running in separate <a href="https://www.docker.com/" target="_blank">Docker</a> containers hosted on <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> cloud.<br><br>
   </p>
             ]]>
         </content>
