@@ -3,7 +3,7 @@
     <title>Tobias Soltermann</title>
     <link href="https://tobiassoltermann.github.io/feed.xml" rel="self" />
     <link href="https://tobiassoltermann.github.io" />
-    <updated>2024-09-02T20:05:19+02:00</updated>
+    <updated>2024-09-02T20:42:01+02:00</updated>
     <author>
         <name>Tobias Soltermann</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://tobiassoltermann.github.io/sandsack-app.html"/>
         <id>https://tobiassoltermann.github.io/sandsack-app.html</id>
+        <media:content url="https://tobiassoltermann.github.io/media/posts/5/01.png" medium="image" />
 
         <updated>2024-09-02T20:05:19+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://tobiassoltermann.github.io/media/posts/5/01.png" alt="" />
                     * bags filled with sand (crumble of glass, to be precise) I have designed and built an app supporting the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://tobiassoltermann.github.io/media/posts/5/01.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     * bags filled with sand (crumble of glass, to be precise)
@@ -64,7 +67,15 @@
     </h1>
 
   <p>
-    Heavy rains can create floods, filling cellars or rendering streets unusable to traffic. Water flows can be redirected by the placement of bags - requiring quick action.<br><br>When on site, the emergency response team needed a tool to increase their effectiveness by providing the ability to:<br><br>calculate the amount of bags required, and<br><br>order some bags to the emergency site.<br><br>Together with the Cantonal Disaster Response Unit, I designed and built a smartphone app available on iOS and Android.<br>
+    Heavy rains can create floods, filling cellars or rendering streets unusable to traffic. Water flows can be redirected by the placement of bags - requiring quick action.<br><br>When on site, the emergency response team needed a tool to increase their effectiveness by providing the ability to:
+  </p>
+
+  <ul>
+    <li>calculate the amount of bags required, and</li><li>order some bags to the emergency site.</li>
+  </ul>
+
+  <p>
+    Together with the Cantonal Disaster Response Unit, I designed and built a smartphone app available on iOS and Android.<br>
   </p>
 
     <h2 id="use-case-1-calculation-of-required-sandbags">
@@ -309,15 +320,18 @@ src="https://www.youtube.com/embed/lJyoT25dVTs?wmode=opaque&enablejsapi=1">
         </author>
         <link href="https://tobiassoltermann.github.io/jassgames.html"/>
         <id>https://tobiassoltermann.github.io/jassgames.html</id>
+        <media:content url="https://tobiassoltermann.github.io/media/posts/4/overview-2.png" medium="image" />
 
         <updated>2020-04-17T19:55:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://tobiassoltermann.github.io/media/posts/4/overview-2.png" alt="" />
                     Overview I’ve built a web-based app to play traditional Swiss game Jass, free of charge for anyone to use on&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://tobiassoltermann.github.io/media/posts/4/overview-2.png" class="type:primaryImage" alt="" /></p>
                 
     <h1 id="overview">
       Overview
@@ -350,6 +364,202 @@ src="https://www.youtube.com/embed/lJyoT25dVTs?wmode=opaque&enablejsapi=1">
 
   <p>
     Developed with <a href="https://nodejs.org/" target="_blank">Node.JS</a>, <a href="https://reactjs.org/" target="_blank">ReactJS</a>. Most communication happens through websockets using <a href="https://socket.io/" target="_blank">socket.io</a> library. <br><br>All graphical assets are self-made, mostly with <a href="https://inkscape.org/" target="_blank">Inkscape</a> and some <a href="https://www.gimp.org/" target="_blank">GIMP</a>. As a coding IDE, I used <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>.<br><br>Frontend and backend are running in separate <a href="https://www.docker.com/" target="_blank">Docker</a> containers hosted on <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> cloud.<br><br>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>SIP-based lamp</title>
+        <author>
+            <name>Tobias Soltermann</name>
+        </author>
+        <link href="https://tobiassoltermann.github.io/sip-based-lamp.html"/>
+        <id>https://tobiassoltermann.github.io/sip-based-lamp.html</id>
+        <media:content url="https://tobiassoltermann.github.io/media/posts/6/image.png" medium="image" />
+
+        <updated>2016-06-06T20:05:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://tobiassoltermann.github.io/media/posts/6/image.png" alt="" />
+                    I have designed and built a SIP device that lights a lamp when called by phone. This device was specifically&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://tobiassoltermann.github.io/media/posts/6/image.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    I have designed and built a <a href="https://wikipedia.org/wiki/Session_Initiation_Protocol" target="_blank">SIP</a> device that lights a lamp when called by phone.
+  </p>
+
+    <h1 id="overview">
+      Overview
+    </h1>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/6/image-2.png" height="864" width="864" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://tobiassoltermann.github.io/media/posts/6/responsive/image-2-xs.png 384w ,https://tobiassoltermann.github.io/media/posts/6/responsive/image-2-sm.png 600w ,https://tobiassoltermann.github.io/media/posts/6/responsive/image-2-md.png 768w ,https://tobiassoltermann.github.io/media/posts/6/responsive/image-2-lg.png 1200w ,https://tobiassoltermann.github.io/media/posts/6/responsive/image-2-xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    This device was specifically created for a local hardware store. Because they offer timber cutting services, employees are operating a vertical panel saw - which is very loud and calls on their portable phone go overheard.
+  </p>
+
+  <p>
+    This led to missed calls and I have been asked to find a solution - with a budget of CHF 100. The project aimed at providing a (dust-proof) visual indicator whenever the portable phone rings, so the operator could hear it even in noisy areas.
+  </p>
+
+  <p>
+    The device was built using a <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi 1</a> and a relay shield. Coding of a custom-made SIP-stack and the service was done in <a href="http://golang.org/" target="_blank">Go</a>.
+  </p>
+<div><iframe loading="lazy" width="854" height="480" data-responsive="false"
+src="https://www.youtube.com/embed/5C6CleBDbrY?wmode=opaque&enablejsapi=1">
+</iframe></div>
+
+    <h1 id="details">
+      Details
+    </h1>
+
+  <p>
+    The company I worked for operated a Cisco based telephony system. The only SIP-based devices were just too expensive.
+  </p>
+
+  <p>
+    Technically, an analog device could have been purchased and combined with an <a href="https://wikipedia.org/wiki/Analog_telephone_adapter" target="_blank">ATA</a> device. They’re designed to attach legacy, analog devices (e.g. phones, fax) to a SIP-based <a href="https://wikipedia.org/wiki/PBX" target="_blank">PBX</a> like <a href="https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html" target="_blank">Cisco Unified Communications Manager</a>.
+  </p>
+
+  <p>
+    But creating a new service based on an out-of-date technology was not an option. Hence, I decided to design it myself.
+  </p>
+
+    <h2 id="technical-stuff">
+      Technical stuff
+    </h2>
+
+    <h3 id="hardware">
+      Hardware
+    </h3>
+
+  <p>
+    The hardware had to be cheap, but dust-proof and comply with electrical regulations.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://tobiassoltermann.github.io/media/posts/6/3768.jpg" height="844" width="1500" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://tobiassoltermann.github.io/media/posts/6/responsive/3768-xs.jpg 384w ,https://tobiassoltermann.github.io/media/posts/6/responsive/3768-sm.jpg 600w ,https://tobiassoltermann.github.io/media/posts/6/responsive/3768-md.jpg 768w ,https://tobiassoltermann.github.io/media/posts/6/responsive/3768-lg.jpg 1200w ,https://tobiassoltermann.github.io/media/posts/6/responsive/3768-xl.jpg 1600w">
+      
+    </figure>
+
+  <p>
+    I ended up placing a Raspberry Pi 1 single board computer in an electrical box and attaching a Relay shield (4 channels to potentially allow future expansion) to it using the provided <a href="https://www.raspberrypi.org/documentation/usage/gpio/" target="_blank">GPIO</a> pins.<br><br>As the light indicator was based on a 230V powered garden light, a high-voltage connection was needed in the box anyway. Therefore, it could be used to power the board as well using an USB power cable.<br>
+  </p>
+
+    <h3 id="software">
+      Software
+    </h3>
+
+  <p>
+    Some software was needed to use the relay shield whenever a call comes in. Besides Linux as an operating system, some more components were required. I always wanted to play around with Google’s fairly new Go programming language. The device was built and tested for <a href="https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html" target="_blank">Cisco CallManager</a> 8.6.2 but could be connected to any SIP-based PBX.
+  </p>
+
+    <h4 id="sip-stack">
+      SIP Stack
+    </h4>
+
+  <p>
+    At the time, no proper SIP stack existed for Go, I had to build the necessary parts on my own. The resulting library is far away from complete, but handles call setup and call teardown very reliably. Usage is fairly simple:
+  </p>
+<pre class="line-numbers  language-go"><code>// Register:
+s = sip.CreateClient()
+s.SetDefaultTransport(appconfig.Transport)
+r := sip.RegisterInfo{
+	sip.Connectinfo{
+		appconfig.Transport,
+		appconfig.ProxyIP,
+		appconfig.ProxyPort,
+	},
+	sip.Connectinfo{
+		appconfig.Transport,
+		GetOutboundIP(proxyIP),
+		appconfig.LocalPort,
+	},
+	appconfig.Phonenumber,
+	sip.DigestUserInfo(
+		appconfig.Username,
+		appconfig.Password
+	),
+	0,
+}
+</code></pre>
+<pre class="line-numbers  language-go"><code>// Accept calls:
+s.OnIncomingCall(func(call *sip.Call) {
+	log.Println("Incoming Call")
+})
+s.OnCancel(func(call *sip.Call) {
+	log.Println("Cancel existing call")
+})
+</code></pre>
+
+  <p>
+    The library is open-source (free for everyone to use) and can be found on a <a href="https://github.com/tobiassoltermann/sip" target="_blank">Github repository</a>. Also, the application code is on another one found <a href="https://github.com/tobiassoltermann/sipbell" target="_blank">here</a>.
+  </p>
+
+  <p>
+    The configuration is done using a <a href="https://www.json.org/" target="_blank">JSON</a> file, an <a href="https://github.com/tobiassoltermann/sipbell/blob/master/config.json.example" target="_blank">example</a> can be found in the repository.<br><br>In Cisco Unified Communications Manager, the device is configured as <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_0_1/sysConfig/CUCM_BK_C733E983_00_cucm-system-configuration-guide-1101/Configure___Third_Party_SIP_Phones.pdf" target="_blank">Third-Party SIP Device (Basic)</a>, attached to the actual portable phone using a Shared Line. Also, a <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/10_5_2/ccmfeat/CUCM_BK_C3A84B33_00_cucm-feature-configuration-guide_1052/CUCM_BK_C3A84B33_00_cucm-feature-configuration-guide_chapter_0100111.html#CUCM_TK_C1A8C1AA_00" target="_blank">Digest User</a> needs to be created and added to the device.<br><br>OpenSSH server was enabled in order to be able to remotely configure / update the device.  In theory, a web UI could be added to facilitate mass-rollout.<br><br>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Busylight for Cisco and Lync</title>
+        <author>
+            <name>Tobias Soltermann</name>
+        </author>
+        <link href="https://tobiassoltermann.github.io/busylight-for-cisco-and-lync.html"/>
+        <id>https://tobiassoltermann.github.io/busylight-for-cisco-and-lync.html</id>
+        <media:content url="https://tobiassoltermann.github.io/media/posts/7/busylight.jpg" medium="image" />
+
+        <updated>2016-01-19T20:14:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://tobiassoltermann.github.io/media/posts/7/busylight.jpg" alt="" />
+                    You have probably seen devices like that. When the person is on the phone, they light up red, green when&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://tobiassoltermann.github.io/media/posts/7/busylight.jpg" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    You have probably seen devices like that.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/busylight-2.jpg" height="440" width="705" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/busylight-2-xs.jpg 384w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/busylight-2-sm.jpg 600w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/busylight-2-md.jpg 768w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/busylight-2-lg.jpg 1200w ,file:///Users/tobias/Documents/Publii/sites/tobias-soltermann/input/media/posts/temp/responsive/busylight-2-xl.jpg 1600w">
+      
+    </figure>
+
+  <p>
+    When the person is on the phone, they light up red, green when available<br>
+  </p>
+
+  <p>
+    We acquired a few of these BusyLights from <a href="https://busylight.com/" target="_blank">kuando</a>. Writing this in 2020 I figured they still exist.<br><br>Big company, diverse requirements and environments: Some of our internal customers had <a href="https://www.microsoft.com/de-ch/microsoft-365/previous-versions/microsoft-lync-2013" target="_blank">Microsoft Lync</a> (later called Skype-for-Business, now entirely replaced by Microsoft Teams), some others used Cisco desk phones. As an engineer working on both systems, I was being called by colleagues/customers on either of these solutions.<br><br>The device was designed for Lync and it lit up red fine when someone called me there. It did however not when someone called me on my Cisco phone and people believed I was available because the indicator was still on green.
+  </p>
+
+    <h2>
+      
+    </h2>
+
+  <p>
+    I have built a Windows application which connected to both, Cisco and Lync and unified the status. It displayed red when I was busy on either of the phones, and green if free on all of them. Other colours could be defined for statuses like ringing, voicemail etc.
+  </p>
+
+  <p>
+    The software written in <a href="https://dotnet.microsoft.com/" target="_blank">.NET</a> (actually, <a href="https://www.mono-project.com/" target="_blank">Mono-Project</a>) connected to <a href="https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html" target="_blank">Cisco CallManager</a> by <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/11_0_1/CUCM_BK_J2445637_00_jtapi-developers-guide_1101/Overview.html" target="_blank">JTAPI</a> and to Lync by the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.lync.model.lyncclient?view=lync-client" target="_blank">respective Assembly</a> to watch the status. An icon in the system tray was provided where the light also could be manually forced to any color and set back to automatic.
+  </p>
+
+  <p>
+    The source code is available on request.<br><br>
   </p>
             ]]>
         </content>
